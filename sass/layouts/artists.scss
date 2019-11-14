@@ -1,0 +1,27 @@
+.artist {
+    //border: 5px solid red;
+    width: 80vw;
+    position: relative;
+    //height: 60vh;
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+
+    &-photo {
+        display: inline-block;
+        //border: 1px solid blue;
+        width: 25%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &-about {
+        display: block;
+        float: right;
+        width: 75%;
+        //border: 1px solid green;
+        padding: 50px;
+        margin-top: 6vh;
+    }
+}

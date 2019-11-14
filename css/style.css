@@ -19,13 +19,31 @@ body {
   width: 80vw;
   margin-left: 10vw; }
 
+.artist {
+  width: 80vw;
+  position: relative;
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267); }
+  .artist-photo {
+    display: inline-block;
+    width: 25%; }
+    .artist-photo img {
+      width: 100%; }
+  .artist-about {
+    display: block;
+    float: right;
+    width: 75%;
+    padding: 50px;
+    margin-top: 6vh; }
+
 footer {
   width: 100%;
   right: 0;
   bottom: 0;
   left: 0;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+  position: relative; }
 
 .social {
   font-size: 2rem;
