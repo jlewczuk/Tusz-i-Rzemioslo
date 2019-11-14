@@ -163,7 +163,8 @@ img.demo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  float: left; }
+  float: left;
+  cursor: pointer; }
 
 .active,
 .demo:hover {
